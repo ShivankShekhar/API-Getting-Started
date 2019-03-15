@@ -2,7 +2,7 @@ let express = require("express")
 
 let router= express.Router()
 
-//localhost:3000/peson?name=ABC   or localhost:3000/peson
+//localhost:3000/person?name=ABC   or localhost:3000/person
 router.get('/person', (req,res)=>{
     if(req.query.name)
         res.send(`Hello ${req.query.name}`)
