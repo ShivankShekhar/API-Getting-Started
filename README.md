@@ -8,7 +8,7 @@ Part 2 :
 API with MongoDb connection and CRUD operation in addition to Part1 API
 
 
-To Upload Node Application on Cloud
+To Upload Node Application on Cloud "now.sh"
 
 >npm i -g now
 >now
